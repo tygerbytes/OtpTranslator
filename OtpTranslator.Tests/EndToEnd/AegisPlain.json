@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "header": {
+    "slots": null,
+    "params": null
+  },
+  "db": {
+    "version": 2,
+    "entries": [
+      {
+        "type": "totp",
+        "uuid": "b33ca6f5-7661-4289-afcc-ee9847c3e59a",
+        "name": "google@gmail.com",
+        "issuer": "Google.com",
+        "note": "",
+        "icon": null,
+        "info": {
+          "secret": "GoogleSecret",
+          "algo": "SHA1",
+          "digits": 6,
+          "period": 30
+        }
+      },
+      {
+        "type": "totp",
+        "uuid": "95915f88-ab7f-4d2a-adcf-efb0fc3f7053",
+        "name": "charles@example.com",
+        "issuer": "Dropbox",
+        "note": "",
+        "icon": null,
+        "info": {
+          "secret": "DropboxSecret",
+          "algo": "SHA1",
+          "digits": 6,
+          "period": 30
+        }
+      }
+    ]
+  }
+}

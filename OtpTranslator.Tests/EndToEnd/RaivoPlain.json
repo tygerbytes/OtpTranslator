@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "TOTP",
+    "account": "google@gmail.com",
+    "secret": "GoogleSecret",
+    "iconType": "raivo_repository",
+    "issuer": "Google.com",
+    "timer": "30",
+    "digits": "6",
+    "counter": "0",
+    "algorithm": "SHA1",
+    "iconValue": "google.com/google-gmail.png"
+  },
+  {
+    "secret": "DropboxSecret",
+    "algorithm": "SHA1",
+    "digits": "6",
+    "kind": "TOTP",
+    "timer": "30",
+    "counter": "0",
+    "issuer": "Dropbox",
+    "iconType": "raivo_repository",
+    "iconValue": "dropbox.com/dropbox.png",
+    "account": "dropbox@example.com"
+  }
+]
