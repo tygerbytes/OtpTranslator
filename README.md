@@ -9,6 +9,8 @@ CLI and library for translating OTP (One-time-password) archives between differe
 | [Aegis](https://github.com/beemdevelopment/Aegis)     | Supports translating the unencrypted json file.                                |
 | [Raivo](https://github.com/raivo-otp/ios-application) | Supports translating the encrypted json file inside the encrypted ZIP archive. |
 
+NOTE: I no longer use/recommend Raivo OTP. It seems they were bought out by some shady characters. (https://news.ycombinator.com/item?id=40523411)
+
 ## Icons?
 
 Currently, icons are not included in the archive translation. Each app uses a unique approach, so we'll have to noodle on this one for a while.
