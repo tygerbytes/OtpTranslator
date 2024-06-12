@@ -33,6 +33,9 @@
       <None Update="EndToEnd\RaivoPlain.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="EndToEnd\2fasPlain.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>

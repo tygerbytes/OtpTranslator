@@ -1,0 +1,66 @@
+{
+  "appVersionName": "5.3.6",
+  "appOrigin": "ios",
+  "services": [
+    {
+      "name": "2FAS",
+      "icon": {
+        "selected": "IconCollection",
+        "label": {
+          "text": "2F",
+          "backgroundColor": "Indigo"
+        },
+        "iconCollection": {
+          "id": "A5B3FB65-4EC5-43E6-8EC1-49E24CA9E7AD"
+        }
+      },
+      "updatedAt": 1718212184000,
+      "secret": "2FASTEST",
+      "otp": {
+        "tokenType": "TOTP",
+        "counter": 0,
+        "algorithm": "SHA1",
+        "issuer": "2FAS",
+        "period": 30,
+        "digits": 6,
+        "source": "link",
+        "link": "otpauth://totp/Test Token?secret=[hidden]&issuer=2FAS"
+      },
+      "order": {
+        "position": 0
+      },
+      "serviceTypeID": "89EFCC2D-52F4-4AC3-988D-5D7F3B3CD0A7"
+    },
+    {
+      "updatedAt": 1718212258000,
+      "icon": {
+        "label": {
+          "text": "BA",
+          "backgroundColor": "Pink"
+        },
+        "iconCollection": {
+          "id": "A5B3FB65-4EC5-43E6-8EC1-49E24CA9E7AD"
+        },
+        "selected": "Label"
+      },
+      "secret": "BANANA",
+      "order": {
+        "position": 1
+      },
+      "name": "Banana Issuer",
+      "otp": {
+        "source": "link",
+        "link": "otpauth://totp/Banana, Inc?secret=[hidden]&issuer=Banana Issuer",
+        "tokenType": "TOTP",
+        "digits": 6,
+        "period": 30,
+        "algorithm": "SHA1",
+        "counter": 0,
+        "issuer": "Banana Issuer"
+      }
+    }
+  ],
+  "schemaVersion": 4,
+  "groups": [],
+  "appVersionCode": 50306
+}

@@ -27,7 +27,7 @@ public class OtpFileTranslator
             
         // -- Now translate the standard type to the target type
         var dir = Path.GetDirectoryName(path) ?? "./";
-        var fileName = Path.GetFileNameWithoutExtension(path) + $"-converted_to_{target}.json";
+        var fileName = Path.GetFileNameWithoutExtension(path) + $"-converted_to_{target}";
         var targetPath = Path.Combine(dir, fileName);
             
         var targetTranslator = Factory.GetFileTranslator(target);

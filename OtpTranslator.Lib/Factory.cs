@@ -1,6 +1,7 @@
 using System.ComponentModel;
 using OtpTranslator.Lib.Translations.Aegis;
 using OtpTranslator.Lib.Translations.Raivo;
+using OtpTranslator.Lib.Translations.TwoFas;
 
 namespace OtpTranslator.Lib;
 
@@ -12,6 +13,7 @@ public static class Factory
         {
             OtpClient.Aegis => new AegisFileTranslator(),
             OtpClient.Raivo => new RaivoFileTranslator(),
+            OtpClient.TwoFas => new TwoFasFileTranslator(),
             _ => throw new InvalidEnumArgumentException($"Unsupported OTP client")
         };
     }

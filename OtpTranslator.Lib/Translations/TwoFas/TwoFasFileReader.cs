@@ -1,17 +1,17 @@
 using Newtonsoft.Json;
 
-namespace OtpTranslator.Lib.Translations.Raivo;
+namespace OtpTranslator.Lib.Translations.TwoFas;
 
-public class RaivoFileReader
+public class TwoFasFileReader
 {
     private readonly string _path;
 
-    public RaivoFileReader(string path)
+    public TwoFasFileReader(string path)
     {
         _path = path;
     }
 
-    public RaivoEntry[] Read()
+    public TwoFasFilePlain? ReadPlain()
     {
         if (!File.Exists(_path))
         {
@@ -20,8 +20,8 @@ public class RaivoFileReader
         
         var json = File.ReadAllText(_path);
 
-        var entries = JsonConvert.DeserializeObject<RaivoEntry[]>(json);
+        var twoFasData = JsonConvert.DeserializeObject<TwoFasFilePlain>(json);
 
-        return entries ?? Array.Empty<RaivoEntry>();
+        return twoFasData;
     }
 }

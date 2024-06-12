@@ -5,6 +5,7 @@ public enum OtpClient
     Invalid,
     Aegis,
     Raivo,
+    TwoFas,
 }
 
 public static class OtpClientEnum

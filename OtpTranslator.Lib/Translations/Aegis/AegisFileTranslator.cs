@@ -46,6 +46,6 @@ public class AegisFileTranslator : ITranslateFile
 
         var json = JsonConvert.SerializeObject(aegisPlain, Formatting.Indented);
 
-        await File.WriteAllTextAsync(targetPath, json); 
+        await File.WriteAllTextAsync(targetPath + ".json", json); 
     } 
 }

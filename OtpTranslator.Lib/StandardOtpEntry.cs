@@ -10,7 +10,7 @@ public class StandardOtpEntry
     
     public string Issuer { get; set; }
     
-    public string Note { get; set; }
+    public string? Note { get; set; }
     
     public string IconType { get; set; }
     public string IconValue { get; set; }
