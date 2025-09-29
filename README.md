@@ -10,7 +10,11 @@ CLI and library for translating OTP (One-time-password) archives between differe
 | [2FAS](https://github.com/twofas)                       | Supports translating the unencrypted json file. 2FAS has its own importer tool, so you may not need this. :) |
 | [Raivo𐃉](https://github.com/raivo-otp/ios-application) | Supports translating the encrypted json file inside the encrypted ZIP archive.                               |
 
-𐃉**NOTE**: I no longer use/recommend Raivo OTP. It seems they were bought out by some shady characters. (https://news.ycombinator.com/item?id=40523412).
+𐃉**NOTE about Raivo**: I no longer use/recommend Raivo OTP. It seems they were bought out by some shady characters:
+
+* [Raivo OTP has been acquired by Mobime](https://news.ycombinator.com/item?id=36942681)
+* [Raivo OTP (2FA) resets data without warning](https://news.ycombinator.com/item?id=40843721)
+* [Raivo OTP just deleted all tokens after update and is now asking for money](https://news.ycombinator.com/item?id=40523411)
 
 ## Icons?
 
